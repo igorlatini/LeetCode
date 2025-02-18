@@ -1,0 +1,13 @@
+class Solution:
+    def largestNumber(self, nums: List[int]) -> str:
+        nums.sort(key=self.normalizeSize, reverse=True)
+        result = ''
+        for i in nums:
+            result += str(i)
+        return str(int(result))
+
+    def normalizeSize(self, e):
+        e = str(e)
+        while(len(e) < 10):
+            e += str(e)
+        return e
