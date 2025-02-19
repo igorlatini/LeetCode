@@ -11,3 +11,5 @@ class Solution:
         while(len(e) < 10):
             e += str(e)
         return e
+
+#General idea: sort the string, repeat each string to have at least 10 chars (max size of an input)
