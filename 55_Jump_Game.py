@@ -9,3 +9,5 @@ class Solution:
         if new_target == 1:
             return True
         return False
+
+#General idea: go backwards on the array, updating the new target
