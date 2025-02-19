@@ -14,3 +14,5 @@ class Solution:
                 heapq.heappush(nums, value)
             except Exception as ex:
                 return n_operations
+
+#General idea: use heap to make it faster
