@@ -19,7 +19,4 @@ class ProductOfNumbers:
         return int(self.number_list[-1]/self.number_list[-(k+1)])
 
 
-# Your ProductOfNumbers object will be instantiated and called as such:
-# obj = ProductOfNumbers()
-# obj.add(num)
-# param_2 = obj.getProduct(k)
+#General idea: there is a logic that works here (see the returns, and the resetting of the list when 0 is added), does not need to keep track of the actual number list
