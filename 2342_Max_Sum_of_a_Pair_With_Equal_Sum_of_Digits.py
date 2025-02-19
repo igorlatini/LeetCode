@@ -19,3 +19,5 @@ class Solution:
         for i in str(item):
             sum_total += int(i)
         return sum_total
+
+#General idea: directly keep track of the best sum and the highest sum of digits
